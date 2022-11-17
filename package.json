@@ -1,0 +1,14 @@
+{
+  "name": "express-node-try",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/ahmedShawareb567/express-node-try.git",
+  "author": "Shawareb <ahmedshawareb567@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./src/index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
