@@ -12,10 +12,6 @@ app.get("/api", (req, res) => {
   res.send("Api ");
 });
 
-app.get("/test", (req, res) => {
-  res.send("Test");
-});
-
 app.get("/countries", (req, res) => {
   res.send([
     {
