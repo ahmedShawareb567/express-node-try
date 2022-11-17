@@ -6,6 +6,7 @@
   "author": "Shawareb <ahmedshawareb567@gmail.com>",
   "license": "MIT",
   "scripts": {
+    "dev": "node --watch --trace-warnings ./src/index.js",
     "start": "node ./src/index.js"
   },
   "dependencies": {
