@@ -16,6 +16,26 @@ app.get("/test", (req, res) => {
   res.send("Test");
 });
 
+app.get("/countries", (req, res) => {
+  res.send([
+    {
+      id: 1,
+      name: "Egypt",
+      code: "EG",
+    },
+    {
+      id: 2,
+      name: "Saudi Arabia",
+      code: "SA",
+    },
+    {
+      id: 3,
+      name: "Qatar",
+      code: "QA",
+    },
+  ]);
+});
+
 app.listen(port, () => {
   console.log("Server is running on port 3000");
 });
