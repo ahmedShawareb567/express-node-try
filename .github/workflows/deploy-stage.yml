@@ -31,12 +31,6 @@ jobs:
           npm i
           fi
 
-      - name: Webhook
-        uses: distributhor/workflow-webhook
-        with:
-          url: "https://685f-156-197-141-103.eu.ngrok.io/test_pedant"
-          json: '{ "repository": "${{github.event.repository.full_name}}", "number": "${{github.event.number}}", "created_at": "${{github.event.pull_request.created_at}}", "updated_at": "${{github.event.pull_request.updated_at}}" }'
-
   deploy:
     runs-on: ubuntu-latest
     needs: [build]
