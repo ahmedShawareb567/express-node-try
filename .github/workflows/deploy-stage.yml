@@ -35,6 +35,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build]
     steps:
+      - uses: actions/checkout@v2
       - name: Invoke deployment hook
         uses: distributhor/workflow-webhook@v2
         env:
