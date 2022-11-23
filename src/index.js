@@ -29,11 +29,6 @@ app.get("/countries", (req, res) => {
       name: "Qatar",
       code: "QA",
     },
-    {
-      id: 4,
-      name: "Oman",
-      code: "OM",
-    },
   ]);
 });
 
