@@ -19,6 +19,11 @@ app.get("/countries", (req, res) => {
       name: "Egypt",
       code: "EG",
     },
+    {
+      id: 2,
+      name: "Saudi Arabia",
+      code: "SA",
+    },
   ]);
 });
 
